@@ -134,7 +134,7 @@ The `LogicToUiManager` object is created upon startup in the MainApp class, and 
 . `StatisticsCommand`
 . `ListCommand`
 
-The following sequence diagram illustrates how the `LogicToUiManager` can be used to modify the `MainWindow`, when CardiBuddy needs to display the flashcard question to the user during a `Test Session`. More details on `Test Session` in the section: <<test-session>>.
+The following sequence diagram illustrates how the `LogicToUiManager` can be used to modify the `MainWindow`, when CardiBuddy needs to display the flashcard question to the user during a `Test Session`. More details on `Test Session` in the section: <<test-sessions, here>>.
 
 This diagram is also an extension of the <<test-sequence-diagram, sequence diagram>> found in that section.
 
@@ -368,6 +368,7 @@ Due to the similarities in method bodies of the different answers and cards clas
 // end::jingying[]
 {empty} +
 
+[[test-sessions]]
 // tag::ash-test-feature[]
 === Test feature
 ==== Design
@@ -388,7 +389,7 @@ To ensure good design practice, `Test Session` is not exposed to the other class
 
 The following figure is a more focused class diagram for the _cardibuddy/model/testsession_ package, and displays important methods and fields used.
 
-Click <<Design-Model, here>> to view the full class diagram for the `Model` component, to see all the classes within `Model` interact.
+Go to <<Design-Model, Model>> to view the full class diagram for the `Model` component, to see all the classes within `Model` interact.
 
 .Class diagram for the test session package.
 image::TestFocusClassDiagram.png[]
